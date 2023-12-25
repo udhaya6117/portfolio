@@ -70,7 +70,19 @@ const Profile = () => {
         </Container>
       </div>
       <div id="about" className="about">
-        afafaf
+        <div className="about-header">
+          <span>About Me</span>
+          <text>
+            About Me
+          </text>
+          <p>A Passionate Developer Who Loves to Code</p>
+        </div>
+        <Container>
+          <div className="slpite-aboutus">
+            <div>adas</div>
+            <div>fwefwe</div>
+          </div>
+        </Container>
       </div>
     </div>
   );
