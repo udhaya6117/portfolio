@@ -192,3 +192,48 @@
       transform: translateY(-10px);
     }
   }
+
+  /* ====== aboutus ===== */
+
+.about-header{
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.about-header span{
+    
+    position: absolute;
+    top: 12px;
+    color: rgba(14, 29, 52, 0.08);
+    left: 0;
+    right: 0;
+    z-index: 1;
+    font-weight: 700;
+    font-size: 32px;
+    text-transform: uppercase;
+    line-height: 0;
+    font-family: "Poppins-Bold";
+}
+.about-header p{
+    margin: 5px 0px ;
+    font-family: "RobotoCondensed-ExtraBold";
+    font-size: 32px;
+    width: 350px;
+    color: var(--background-color-overlay);
+}
+ .about-header text{
+    font-family: "Poppins-SemiBold";
+    color: var(--blob-color-cir);
+    position: relative;
+ }
+
+ 
+
+  .slpite-aboutus{
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
